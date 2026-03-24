@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ativ3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4860c995e16c713938ac2e89c50cb2edebc2cf8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e8a4ff5e8bb8123f637bd8c5e0e5aee0a70987a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ativ3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ativ3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
