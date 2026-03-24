@@ -5,4 +5,12 @@
     <Project Path="Aula02/ativ3/ativ3.csproj" />
     <Project Path="Aula02/ativ4/ativ4.csproj" />
   </Folder>
+  <Folder Name="/Aula04/">
+    <Project Path="Aula04/ativ1/ativ1.csproj" />
+    <Project Path="Aula04/ativ3.cs/ativ3.cs.csproj" />
+    <Project Path="Aula04/ativ3/ativ3.csproj" />
+  </Folder>
+  <Folder Name="/LPR/">
+    <Project Path="Aula04/Aula04/Aula04.csproj" />
+  </Folder>
 </Solution>
