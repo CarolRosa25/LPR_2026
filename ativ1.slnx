@@ -9,4 +9,8 @@
     <Project Path="Aula05/ativ4.cs/ativ4.cs.csproj" />
     <Project Path="Aula05/ativ5.cs/ativ5.cs.csproj" />
   </Folder>
+  <Folder Name="/Aula06/">
+    <Project Path="Aula06/ativ1/ativ1.csproj" />
+    <Project Path="Aula06/ativ3/ativ3.csproj" />
+  </Folder>
 </Solution>

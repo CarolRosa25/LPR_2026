@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ativ5.cs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae59bf74313b487594d6834e40d0767a7bd9fabd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41b88e6daf4ab51803659aca8398b4849e75b8e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ativ5.cs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ativ5.cs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
