@@ -1,4 +1,5 @@
 <Solution>
+  <Folder>
   <Folder Name="/Aula02/">
     <Project Path="Aula02/ativ1/ativ1.csproj" />
     <Project Path="Aula02/ativ2/ativ2.csproj" />
@@ -12,5 +13,9 @@
   <Folder Name="/Aula06/">
     <Project Path="Aula06/ativ1/ativ1.csproj" />
     <Project Path="Aula06/ativ3/ativ3.csproj" />
+  </Folder>
+  <Folder Name="/Aula07/">
+    <Project Path="Aula07/ativ1.cs/ativ1.cs.csproj" />
+    <Project Path="Aula07/ativ2.cs/ativ2.cs.csproj" />
   </Folder>
 </Solution>

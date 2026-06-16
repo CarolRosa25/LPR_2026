@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ativ4.cs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41b88e6daf4ab51803659aca8398b4849e75b8e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f847a25fb6a764ce4ecc37c776222e5653711cd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ativ4.cs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ativ4.cs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

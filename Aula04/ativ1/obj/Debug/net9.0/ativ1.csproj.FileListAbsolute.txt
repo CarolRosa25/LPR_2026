@@ -1,0 +1,15 @@
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\bin\Debug\net9.0\ativ1.exe
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\bin\Debug\net9.0\ativ1.deps.json
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\bin\Debug\net9.0\ativ1.runtimeconfig.json
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\bin\Debug\net9.0\ativ1.dll
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\bin\Debug\net9.0\ativ1.pdb
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\obj\Debug\net9.0\ativ1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\obj\Debug\net9.0\ativ1.AssemblyInfoInputs.cache
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\obj\Debug\net9.0\ativ1.AssemblyInfo.cs
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\obj\Debug\net9.0\ativ1.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\obj\Debug\net9.0\ativ1.sourcelink.json
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\obj\Debug\net9.0\ativ1.dll
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\obj\Debug\net9.0\refint\ativ1.dll
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\obj\Debug\net9.0\ativ1.pdb
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\obj\Debug\net9.0\ativ1.genruntimeconfig.cache
+C:\Users\Alunos\Desktop\LPR_2026\Aula04\ativ1\obj\Debug\net9.0\ref\ativ1.dll
