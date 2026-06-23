@@ -40,7 +40,20 @@ class Ativ
 
             Console.Write("Escreva a duração de minutos do filme: ");
             romance[i].duracaoMinutos = int.Parse(Console.ReadLine()!);
+
+            Console.WriteLine();
         }
-        
+    
+    Console.WriteLine("\nFilmes cadastrados: " + romance[0].titulo + ", " + romance[1].titulo + ", " + romance[2].titulo);
+    
+        if (romance[0].anoLancamento < romance[1].anoLancamento && romance[0].anoLancamento < romance[2].anoLancamento) {
+            Console.WriteLine("O filme mais antigo é: " + romance[0].titulo);
+        }
+        else if (romance[1].anoLancamento < romance[0].anoLancamento && romance[1].anoLancamento < romance[2].anoLancamento) {
+            Console.WriteLine("O filme mais antigo é: " + romance[1].titulo);
+        }
+        else {
+            Console.WriteLine("O filme mais antigo é: " + romance[2].titulo);
+        }
     }                     
 }

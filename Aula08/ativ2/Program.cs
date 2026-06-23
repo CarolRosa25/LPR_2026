@@ -33,10 +33,11 @@ class Ativ
             Console.Write("Escreva a quantidade em estoque: ");
             dados[i].quantidade = int.Parse(Console.ReadLine()!);
 
-            valorTotal += dados[i].preco * dados[i].quantidade;
+            Console.WriteLine();
         }
-
-        Console.WriteLine();
-        Console.WriteLine("O valor total é: " + valorTotal);
-        }                    
+ 
+    valorTotal = dados[0].preco * dados[0].quantidade + dados[1].preco * dados[1].quantidade + dados[2].preco * dados[2].quantidade;
+    
+    Console.WriteLine("O valor total é: " + valorTotal);
+    }                    
 }
