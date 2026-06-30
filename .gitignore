@@ -1,2 +1,5 @@
 obj/
 bin/
+
+# Ignorar arquivos executáveis do Windows
+*.exe
