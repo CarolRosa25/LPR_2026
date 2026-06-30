@@ -1,5 +1,24 @@
-obj/
-bin/
+# === C++ / Executáveis ===
+# Ignora executáveis em qualquer pasta
+**/*.exe
 
-# Ignorar arquivos executáveis do Windows
-*.exe
+# === C# / .NET ===
+# Ignora pastas de compilação do C# (onde ficam as DLLs e arquivos temporários)
+[Bb]in/
+[Oo]bj/
+
+# Ignora os arquivos de configuração locais do usuário para soluções C#
+*.sln.docstates
+*.suo
+*.user
+
+# === VS Code / IDEs ===
+# Ignora arquivos de histórico e diagnósticos locais do VS Code
+.vscode/.history/
+.vscode/ipch/
+*.log
+
+# === Sistema Operacional ===
+# Arquivos inúteis que o Windows cria sozinho nas pastas
+Thumbs.db
+Desktop.ini

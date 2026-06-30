@@ -2,24 +2,27 @@
 using namespace std;
 
 int main() {
-    int i, j;
-    int soma = 0;
     int matriz[3][3];
+    int soma = 0;
 
-    for (i = 0; i < 3; i++) {
-        for (j = 0; j < 3; j++) {
-            cout << "Digite um número inteiro: ";
+    cout << "Digite os elementos da matriz 3x3:" << endl;
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout << "Elemento [" << i << "][" << j << "]: ";
             cin >> matriz[i][j];
         }
     }
-    soma += matriz[i][j];
 
-    cout << "Matriz: " << endl;
-    for (i = 0; i < 3; i++) {
-        for (j = 0; j < 3; j++) {
-            cout << matriz[i][j] << ' ';
+    cout << "\nMatriz digitada:" << endl;
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout << matriz[i][j] << "\t";
+            soma += matriz[i][j]; 
         }
-        cout << '\n';
+        cout << endl;
     }
-    cout << "Soma: " << soma << endl;
+
+    cout << "\nSoma = " << soma << endl;
+
+    return 0;
 }
