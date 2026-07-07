@@ -3,6 +3,8 @@
 // A partir dessa lista ordenada, remova todos os números pares e imprima a lista novamente.
 // Por fim imprima quais números se repetem, se existe algum número repetido.
 
+// arrumar + fazer ativ 4
+
 #include <iostream>
 #include <list>
 using namespace std;
