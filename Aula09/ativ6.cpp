@@ -7,8 +7,41 @@
 #include <iostream>
 #include <map>
 #include <string>
+#include <vector>
 
 using namespace std;
 int main () {
-    
+    map<string, int> pessoas;
+    vector<string> nomes;
+    string nomePessoa;
+
+    for (int i = 0; i < 3; i++) {
+        cout << "\nDigite o nome da pessoa: ";
+        getline(cin, nomePessoa);
+        nomes.push_back(nomePessoa);
+
+        int idade;
+        for (int i = 0; i < nomePessoa.size(); i++) {
+        cout << "Digite a idade de " << nomePessoa << ": ";
+        cin >> idade;
+        pessoas[nomePessoa] = idade;
+        }
+    }
+
+    int soma;
+        for (auto& idade : pessoas) {
+            soma += idade.second;
+            int mediaIdades = soma / pessoas.size();
+            for (auto& pessoa : pessoas) {
+                if (pessoa.second > mediaIdades) {
+                    cout << "Pessoa com idade acima da média: " << pessoa.first << endl;
+                }
+            }
+        }
+
+        for (auto& pessoa : pessoas) {
+            if (pessoa.second == 0) {
+                cout << "Pessoa mais nova: " << pessoa.first << endl;
+            }
+        }
 }
