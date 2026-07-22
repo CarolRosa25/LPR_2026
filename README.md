@@ -94,7 +94,7 @@ Durante a disciplina são desenvolvidas competências relacionadas a:
 
 # 📂 Organização do repositório
 
-Os exercícios são organizados por aula, mantendo uma implementação em **C++** e outra em **C#**, facilitando a comparação entre as linguagens.
+Os exercícios são organizados por aula, mantendo implementações em **C++** e outras em **C#**, facilitando a comparação entre as linguagens.
 
 ```text
 LPR_2026/
