@@ -1,125 +1,176 @@
 <div align="center">
 
-# 💻 Linguagem de Programação (LPR) — 2026
+# 💻 Linguagem de Programação (LPR) • 2026
 
-### Curso Técnico em Desenvolvimento de Sistemas (Games) • ETE FMC
+### Repositório de exercícios e projetos da disciplina de Linguagem de Programação
 
-<br/>
+<br>
 
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-68217A?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20Andamento-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow?style=for-the-badge)
 
 </div>
 
 ---
 
-## 📌 Informações Gerais
+# 📖 Sobre este repositório
 
-| Item | Detalhes |
-| :--- | :--- |
-| 🏫 **Instituição** | Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC) |
-| 🎮 **Curso** | Técnico em Desenvolvimento de Sistemas — Foco em Games |
-| 📖 **Disciplina** | Linguagem de Programação (LPR) |
-| 👨‍🏫 **Professor** | José Andery Carneiro |
-| 👩‍💻 **Aluna** | Caroline Rosa |
-| 📅 **Ano Letivo** | 2026 |
+Este repositório reúne todas as atividades, exercícios, desafios técnicos e projetos desenvolvidos durante a disciplina de **Linguagem de Programação (LPR)**, ministrada pelo professor **José Andery**, no **Curso Técnico em Desenvolvimento de Sistemas – Games** da **Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC)**.
+
+Além de armazenar as entregas da disciplina, este repositório funciona como um **portfólio acadêmico**, registrando minha evolução no aprendizado de lógica de programação, desenvolvimento de algoritmos, programação estruturada e programação orientada a objetos.
 
 ---
 
-## 🎯 Sobre o Repositório
+# 🎓 Informações da disciplina
 
-Este repositório é dedicado ao registro de atividades, exercícios de fixação, projetos práticos e desafios técnicos desenvolvidos durante a disciplina de **LPR**. 
-
-O principal objetivo é fortalecer o raciocínio lógico, dominar algoritmos e praticar a implementação de soluções utilizando **C++** e **C#**, aplicando boas práticas de versionamento com Git/GitHub e metodologias ágeis no projeto integrado (PROJETE).
-
----
-
-## 🗺️ Sumário
-
-- [📂 Organização das Pastas](#-organização-das-pastas)
-- [📚 Ementa e Cronograma](#-ementa-e-cronograma)
-- [⚙️ Tecnologias e Ferramentas](#️-tecnologias-e-ferramentas)
-- [🚀 Como Executar os Projetos](#-como-executar-os-projetos)
-- [📖 Bibliografia Recomendada](#-bibliografia-recomendada)
+| Item | Descrição |
+|------|-----------|
+| 🏫 Instituição | Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC) |
+| 🎓 Curso | Técnico em Desenvolvimento de Sistemas – Games |
+| 📚 Disciplina | Linguagem de Programação |
+| 👨‍🏫 Professor | José Andery |
+| 👩‍💻 Aluna | Caroline Maciel de Ávila Rosa |
+| 📅 Ano letivo | 2026 |
 
 ---
 
-## 📂 Organização das Pastas
+# 🎯 Objetivos da disciplina
 
-A estrutura de arquivos acompanha o progresso dos trimestres e módulos de ensino:
+Durante a disciplina são desenvolvidas competências relacionadas a:
 
-```text
+- 🧠 Raciocínio lógico e resolução de problemas;
+- 📐 Construção e análise de algoritmos;
+- 💻 Programação estruturada utilizando **C++** e **C#**;
+- 🏛️ Programação Orientada a Objetos (POO);
+- 📦 Estruturas de dados fundamentais;
+- 🌿 Controle de versão com Git e GitHub;
+- 📄 Documentação utilizando Markdown;
+- 🤝 Desenvolvimento colaborativo e boas práticas de programação.
+
+---
+
+# 📚 Conteúdo estudado
+
+## 1º Trimestre
+
+- Revisão de conceitos da computação;
+- Algoritmos e lógica de programação;
+- Git, GitHub e Markdown;
+- Tipos de dados;
+- Variáveis e constantes;
+- Entrada e saída de dados;
+- Expressões aritméticas e lógicas;
+- Estruturas condicionais (`if`, `else`, `switch`);
+- Estruturas de repetição (`while`, `for`);
+- Modularização;
+- Introdução ao Scrum e UML (PROJETE).
+
+---
+
+## 2º Trimestre
+
+- Vetores;
+- Matrizes;
+- Registros (Structs);
+- Listas lineares;
+- Dicionários;
+- Preparação para a Olimpíada Brasileira de Informática (OBI).
+
+---
+
+# 🚀 Tecnologias utilizadas
+
+- C++
+- C#
+- .NET
+- Git
+- GitHub
+- Markdown
+- Visual Studio Code
+- Visual Studio Community
+
+---
+
+# 📂 Organização do repositório
+
+Os arquivos são organizados conforme o andamento da disciplina.
+
+Cada pasta corresponde às aulas, exercícios, desafios técnicos ou projetos desenvolvidos durante o ano letivo.
+
+```
 LPR_2026/
 │
-├── 1-Trimestre/
-│   ├── Exercicios-Fixacao/    # Práticas de lógica e sintaxe
-│   ├── Desafios-Tecnicos/     # Resolução de desafios individuais
-│   └── Projeto-Integrado/     # Documentação UML e artefatos do PROJETE
+├── Aula01/
+├── Aula02/
+├── Aula03/
+├── Aula04/
+├── Aula05/
 │
-├── 2-Trimestre/
-│   ├── Vetores-Matrizes/      # Estruturas homogêneas
-│   ├── Structs/               # Estruturas heterogêneas
-│   └── OBI/                   # Resolução de problemas no estilo OBI (C++)
+├── Desafios/
+├── Projetos/
 │
 └── README.md
-
-## 📚 Ementa e Cronograma
-
-- **Fundamentos & Versionamento:** História da programação, paradigmas, compilação vs. interpretação, Git, GitHub e Markdown.
-- **Sintaxe Fundamental (C++ / C#):** Tipos primitivos, variáveis, constantes, operadores aritméticos/lógicos e I/O.
-- **Estruturas de Controle:**
-  - **Seleção:** `if`, `else`, `else if`, `switch`.
-  - **Repetição:** `while`, `for`.
-- **Modularização:** Funções, escopo, passagem de parâmetros e recursividade.
-- **PROJETE:** Framework SCRUM, Brainstorming, Briefing e Diagrama de Casos de Uso (UML).
-- **Estruturas Homogêneas:** Vetores e Matrizes.
-- **Estruturas Heterogêneas:** Registros (`structs`).
-- **Coleções Avançadas:** Listas lineares e Dicionários.
-- **Treinamento OBI:** Resolução de algoritmos focados na Olimpíada Brasileira de Informática.
+```
 
 ---
 
-## ⚙️ Tecnologias e Ferramentas
+# 🧩 Competências desenvolvidas
 
-* **Linguagens de Programação:** C++ e C# (.NET)
-* **IDEs & Editores:** Visual Studio Code e Visual Studio Community 2022
-* **Modelagem:** UML (Diagramas de Casos de Uso)
-* **Metodologia:** Scrum
+Ao longo da disciplina são trabalhadas habilidades como:
+
+- Desenvolvimento do raciocínio lógico;
+- Resolução de problemas computacionais;
+- Escrita de algoritmos eficientes;
+- Programação estruturada;
+- Programação Orientada a Objetos;
+- Organização de projetos;
+- Controle de versão;
+- Documentação de software;
+- Trabalho em equipe.
 
 ---
 
-## 🚀 Como Executar os Projetos
+# ▶️ Como executar
 
-### 🔹 Executando códigos em C++
+### C++
 
-Certifique-se de ter um compilador como o `g++` instalado:
+Compile o arquivo utilizando um compilador C++.
 
 ```bash
-# Navegue até a pasta do arquivo
-cd 1-Trimestre/Exercicios-Fixacao
-
-# Compile o arquivo
-g++ exercicio.cpp -o programa
-
-# Execute o executável gerado
+g++ arquivo.cpp -o programa
 ./programa
+```
 
-### 🔹 Executando projetos em C# (.NET)
+### C#
 
-Certifique-se de ter o SDK do .NET instalado:
+Entre na pasta do projeto e execute:
 
 ```bash
-# Navegue até o diretório do projeto (.csproj)
-cd 1-Trimestre/Exercicios-Fixacao/ExemploCSharp
-
-# Execute a aplicação
 dotnet run
+```
+
+---
+
+# 📈 Status
+
+🟡 **Em desenvolvimento**
+
+Este repositório recebe novos conteúdos conforme o avanço da disciplina, reunindo exercícios, desafios técnicos e projetos desenvolvidos ao longo do ano.
+
+---
 
 <div align="center">
 
-✨ *Desenvolvido por Caroline Rosa durante o curso de Desenvolvimento de Sistemas na ETE FMC.*
+### ✨ Desenvolvido por
+
+**Caroline Maciel de Ávila Rosa**
+
+Curso Técnico em Desenvolvimento de Sistemas – Games
+
+ETE FMC • 2026
 
 </div>
