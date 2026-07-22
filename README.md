@@ -14,44 +14,44 @@ A disciplina de Linguagem de Programação tem como foco capacitar os alunos par
 
 Entre os principais objetivos e focos de estudo estão:
 - **Desenvolvimento de raciocínio lógico** e algoritmos.
-- **Programação Estruturada** utilizando **C++** e **C#**[cite: 1].
-- **Programação Orientada a Objetos (POO)** em **C#**[cite: 1].
-- **Estruturas de Dados** fundamentais e avançadas[cite: 1].
+- **Programação Estruturada** utilizando **C++** e **C#**.
+- **Programação Orientada a Objetos (POO)** em **C#**.
+- **Estruturas de Dados** fundamentais e avançadas.
 - **Integração com Banco de Dados** (introdução).
-- **Controle de versionamento** e documentação com Git/GitHub[cite: 1].
-- **Metodologias Ágeis (Scrum)** e modelagem UML no projeto integrado (PROJETE)[cite: 1].
+- **Controle de versionamento** e documentação com Git/GitHub.
+- **Metodologias Ágeis (Scrum)** e modelagem UML no projeto integrado (PROJETE).
 
 ---
 
 ## 📚 Ementa e Conteúdo Programático
 
 ### 🗓️ 1º Trimestre
-- **Revisão e Fundamentos:** História da programação, paradigmas, arquitetura de software, compilação vs. interpretação e sistemas operacionais[cite: 1].
-- **Ferramentas e Versionamento:** Git, GitHub e Markdown[cite: 1].
+- **Revisão e Fundamentos:** História da programação, paradigmas, arquitetura de software, compilação vs. interpretação e sistemas operacionais.
+- **Ferramentas e Versionamento:** Git, GitHub e Markdown.
 - **Introdução às Linguagens (C++ / C#):**
-  - Tipos primitivos de dados, variáveis e constantes[cite: 1].
-  - Expressões aritméticas, lógicas e comandos de entrada/saída[cite: 1].
+  - Tipos primitivos de dados, variáveis e constantes.
+  - Expressões aritméticas, lógicas e comandos de entrada/saída.
 - **Estruturas de Controle:**
-  - **Seleção:** `if`, `else`, `else if`, `switch`[cite: 1].
-  - **Repetição:** `while`, `for`[cite: 1].
-- **Modularização:** Escopo de variáveis, passagem de parâmetros, retornos e recursividade[cite: 1].
-- **PROJETE:** Framework SCRUM, Brainstorm, Briefing e Diagrama de Casos de Uso (UML)[cite: 1].
+  - **Seleção:** `if`, `else`, `else if`, `switch`.
+  - **Repetição:** `while`, `for`.
+- **Modularização:** Escopo de variáveis, passagem de parâmetros, retornos e recursividade.
+- **PROJETE:** Framework SCRUM, Brainstorm, Briefing e Diagrama de Casos de Uso (UML).
 
 ### 🗓️ 2º Trimestre
 - **Estruturas de Dados:**
-  - Variáveis compostas homogêneas (**Vetores e Matrizes**)[cite: 2].
-  - Variáveis compostas heterogêneas (**Registros / Structs**)[cite: 2].
-  - Estruturas avançadas (**Listas Lineares e Dicionários**)[cite: 2].
-- **Preparação OBI:** Treinamento prático voltado para a Olimpíada Brasileira de Informática (foco em C++)[cite: 2].
+  - Variáveis compostas homogêneas (**Vetores e Matrizes**).
+  - Variáveis compostas heterogêneas (**Registros / Structs**).
+  - Estruturas avançadas (**Listas Lineares e Dicionários**).
+- **Preparação OBI:** Treinamento prático voltado para a Olimpíada Brasileira de Informática (foco em C++).
 
 ---
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 
 * **Linguagens de Programação:** C++ e C#
-* **IDEs e Editores:** [Visual Studio Code](https://code.visualstudio.com/) e [Visual Studio Community 2022](https://visualstudio.microsoft.com/pt-br/vs/community/)[cite: 1]
-* **Controle de Versão:** Git e GitHub[cite: 1]
-* **Modelagem:** UML[cite: 1]
+* **IDEs e Editores:** [Visual Studio Code](https://code.visualstudio.com/) e [Visual Studio Community 2022](https://visualstudio.microsoft.com/pt-br/vs/community/)
+* **Controle de Versão:** Git e GitHub
+* **Modelagem:** UML
 
 ---
 
