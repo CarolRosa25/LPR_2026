@@ -1,72 +1,125 @@
+<div align="center">
+
 # 💻 Linguagem de Programação (LPR) — 2026
 
-![Curso Técnico em Desenvolvimento de Sistemas - Games](https://img.shields.io/badge/Curso-T%C3%A9cnico%20em%20Desenvolvimento%20de%20Sistemas%20--%20Games-blue)
-![ETE FMC](https://img.shields.io/badge/Institui%C3%A7%C3%A3o-ETE%20FMC-green)
-![Professor](https://img.shields.io/badge/Professor-Jos%C3%A9%20Andery-orange)
+### Curso Técnico em Desenvolvimento de Sistemas (Games) • ETE FMC
 
-Repositório dedicado ao armazenamento de códigos, atividades de fixação, projetos e conteúdos práticos da disciplina de **Linguagem de Programação**, ministrada pelo professor **José Andery** no curso Técnico em Desenvolvimento de Sistemas - Games na **ETE FMC**.
+<br/>
 
----
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Em%20Andamento-yellow?style=for-the-badge)
 
-## 🎯 Objetivos da Disciplina
-
-A disciplina de Linguagem de Programação tem como foco capacitar os alunos para a resolução de problemas complexos por meio do desenvolvimento de software de alta performance, fácil manutenção e qualidade. 
-
-Entre os principais objetivos e focos de estudo estão:
-- **Desenvolvimento de raciocínio lógico** e algoritmos.
-- **Programação Estruturada** utilizando **C++** e **C#**.
-- **Programação Orientada a Objetos (POO)** em **C#**.
-- **Estruturas de Dados** fundamentais e avançadas.
-- **Integração com Banco de Dados** (introdução).
-- **Controle de versionamento** e documentação com Git/GitHub.
-- **Metodologias Ágeis (Scrum)** e modelagem UML no projeto integrado (PROJETE).
+</div>
 
 ---
 
-## 📚 Ementa e Conteúdo Programático
+## 📌 Informações Gerais
 
-### 🗓️ 1º Trimestre
-- **Revisão e Fundamentos:** História da programação, paradigmas, arquitetura de software, compilação vs. interpretação e sistemas operacionais.
-- **Ferramentas e Versionamento:** Git, GitHub e Markdown.
-- **Introdução às Linguagens (C++ / C#):**
-  - Tipos primitivos de dados, variáveis e constantes.
-  - Expressões aritméticas, lógicas e comandos de entrada/saída.
+| Item | Detalhes |
+| :--- | :--- |
+| 🏫 **Instituição** | Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC) |
+| 🎮 **Curso** | Técnico em Desenvolvimento de Sistemas — Foco em Games |
+| 📖 **Disciplina** | Linguagem de Programação (LPR) |
+| 👨‍🏫 **Professor** | José Andery Carneiro |
+| 👩‍💻 **Aluna** | Carol Rosa |
+| 📅 **Ano Letivo** | 2026 |
+
+---
+
+## 🎯 Sobre o Repositório
+
+Este repositório é dedicado ao registro de atividades, exercícios de fixação, projetos práticos e desafios técnicos desenvolvidos durante a disciplina de **LPR**. 
+
+O principal objetivo é fortalecer o raciocínio lógico, dominar algoritmos e praticar a implementação de soluções utilizando **C++** e **C#**, aplicando boas práticas de versionamento com Git/GitHub e metodologias ágeis no projeto integrado (PROJETE).
+
+---
+
+## 🗺️ Sumário
+
+- [📂 Organização das Pastas](#-organização-das-pastas)
+- [📚 Ementa e Cronograma](#-ementa-e-cronograma)
+- [⚙️ Tecnologias e Ferramentas](#️-tecnologias-e-ferramentas)
+- [🚀 Como Executar os Projetos](#-como-executar-os-projetos)
+- [📖 Bibliografia Recomendada](#-bibliografia-recomendada)
+
+---
+
+## 📂 Organização das Pastas
+
+A estrutura de arquivos acompanha o progresso dos trimestres e módulos de ensino:
+
+```text
+LPR_2026/
+│
+├── 1-Trimestre/
+│   ├── Exercicios-Fixacao/    # Práticas de lógica e sintaxe
+│   ├── Desafios-Tecnicos/     # Resolução de desafios individuais
+│   └── Projeto-Integrado/     # Documentação UML e artefatos do PROJETE
+│
+├── 2-Trimestre/
+│   ├── Vetores-Matrizes/      # Estruturas homogêneas
+│   ├── Structs/               # Estruturas heterogêneas
+│   └── OBI/                   # Resolução de problemas no estilo OBI (C++)
+│
+└── README.md
+
+## 📚 Ementa e Cronograma
+
+- **Fundamentos & Versionamento:** História da programação, paradigmas, compilação vs. interpretação, Git, GitHub e Markdown.
+- **Sintaxe Fundamental (C++ / C#):** Tipos primitivos, variáveis, constantes, operadores aritméticos/lógicos e I/O.
 - **Estruturas de Controle:**
   - **Seleção:** `if`, `else`, `else if`, `switch`.
   - **Repetição:** `while`, `for`.
-- **Modularização:** Escopo de variáveis, passagem de parâmetros, retornos e recursividade.
-- **PROJETE:** Framework SCRUM, Brainstorm, Briefing e Diagrama de Casos de Uso (UML).
-
-### 🗓️ 2º Trimestre
-- **Estruturas de Dados:**
-  - Variáveis compostas homogêneas (**Vetores e Matrizes**).
-  - Variáveis compostas heterogêneas (**Registros / Structs**).
-  - Estruturas avançadas (**Listas Lineares e Dicionários**).
-- **Preparação OBI:** Treinamento prático voltado para a Olimpíada Brasileira de Informática (foco em C++).
+- **Modularização:** Funções, escopo, passagem de parâmetros e recursividade.
+- **PROJETE:** Framework SCRUM, Brainstorming, Briefing e Diagrama de Casos de Uso (UML).
+- **Estruturas Homogêneas:** Vetores e Matrizes.
+- **Estruturas Heterogêneas:** Registros (`structs`).
+- **Coleções Avançadas:** Listas lineares e Dicionários.
+- **Treinamento OBI:** Resolução de algoritmos focados na Olimpíada Brasileira de Informática.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
+## ⚙️ Tecnologias e Ferramentas
 
-* **Linguagens de Programação:** C++ e C#
-* **IDEs e Editores:** [Visual Studio Code](https://code.visualstudio.com/) e [Visual Studio Community 2022](https://visualstudio.microsoft.com/pt-br/vs/community/)
-* **Controle de Versão:** Git e GitHub
-* **Modelagem:** UML
+* **Linguagens de Programação:** C++ e C# (.NET)
+* **IDEs & Editores:** Visual Studio Code e Visual Studio Community 2022
+* **Modelagem:** UML (Diagramas de Casos de Uso)
+* **Metodologia:** Scrum
 
 ---
 
-## 📂 Organização do Repositório
+## 🚀 Como Executar os Projetos
 
-O repositório é organizado de acordo com os exercícios praticados em sala e entregas solicitadas:
+### 🔹 Executando códigos em C++
 
-```text
-.
-├── 1-Trimestre/
-│   ├── Exercicios-Fixacao/    # Exercícios de fixação passados ao final das aulas
-│   ├── Desafios-Tecnicos/     # Resolução dos desafios técnicos individuais
-│   └── Projeto-Integrado/     # Documentações ou partes do projeto LPR + SE + DAPL
-├── 2-Trimestre/
-│   ├── Vetores-Matrizes/      # Práticas com estruturas homogêneas
-│   ├── Structs/               # Práticas com estruturas heterogêneas
-│   └── OBI/                   # Resolução de questões da Olimpíada Brasileira de Informática
-└── README.md
+Certifique-se de ter um compilador como o `g++` instalado:
+
+```bash
+# Navegue até a pasta do arquivo
+cd 1-Trimestre/Exercicios-Fixacao
+
+# Compile o arquivo
+g++ exercicio.cpp -o programa
+
+# Execute o executável gerado
+./programa
+
+### 🔹 Executando projetos em C# (.NET)
+
+Certifique-se de ter o SDK do .NET instalado:
+
+```bash
+# Navegue até o diretório do projeto (.csproj)
+cd 1-Trimestre/Exercicios-Fixacao/ExemploCSharp
+
+# Execute a aplicação
+dotnet run
+
+<div align="center">
+
+✨ *Desenvolvido por Caroline Rosa durante o curso de Desenvolvimento de Sistemas na ETE FMC.*
+
+</div>
