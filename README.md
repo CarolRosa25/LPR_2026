@@ -24,7 +24,7 @@
 | 🎮 **Curso** | Técnico em Desenvolvimento de Sistemas — Foco em Games |
 | 📖 **Disciplina** | Linguagem de Programação (LPR) |
 | 👨‍🏫 **Professor** | José Andery Carneiro |
-| 👩‍💻 **Aluna** | Carol Rosa |
+| 👩‍💻 **Aluna** | Caroline Rosa |
 | 📅 **Ano Letivo** | 2026 |
 
 ---
