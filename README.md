@@ -2,7 +2,7 @@
 
 # 💻 Linguagem de Programação (LPR) • 2026
 
-### Repositório de exercícios e projetos da disciplina de Linguagem de Programação
+### Repositório de exercícios da disciplina de Linguagem de Programação
 
 <br>
 
@@ -17,11 +17,24 @@
 
 ---
 
+# 📑 Sumário
+
+- [📖 Sobre este repositório](#-sobre-este-repositório)
+- [🎓 Informações da disciplina](#-informações-da-disciplina)
+- [🎯 Objetivos da disciplina](#-objetivos-da-disciplina)
+- [📚 Conteúdo estudado](#-conteúdo-estudado)
+- [🚀 Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [📂 Organização do repositório](#-organização-do-repositório)
+- [▶️ Como executar](#️-como-executar)
+- [📈 Status](#-status)
+
+---
+
 # 📖 Sobre este repositório
 
-Este repositório reúne todas as atividades, exercícios, desafios técnicos e projetos desenvolvidos durante a disciplina de **Linguagem de Programação (LPR)**, ministrada pelo professor **José Andery**, no **Curso Técnico em Desenvolvimento de Sistemas – Games** da **Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC)**.
+Este repositório reúne todas as atividades e exercícios desenvolvidos durante a disciplina de **Linguagem de Programação (LPR)**, ministrada pelo professor **José Andery**, no **Curso Técnico em Desenvolvimento de Sistemas – Games** da **Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC)**.
 
-Além de armazenar as entregas da disciplina, este repositório funciona como um **portfólio acadêmico**, registrando minha evolução no aprendizado de lógica de programação, desenvolvimento de algoritmos, programação estruturada e programação orientada a objetos.
+Além de armazenar as entregas da disciplina, este repositório funciona como um **portfólio acadêmico**, registrando minha evolução no aprendizado de lógica de programação, desenvolvimento de algoritmos e programação estruturada utilizando C++ e C#.
 
 ---
 
@@ -29,12 +42,12 @@ Além de armazenar as entregas da disciplina, este repositório funciona como um
 
 | Item | Descrição |
 |------|-----------|
-| 🏫 Instituição | Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC) |
-| 🎓 Curso | Técnico em Desenvolvimento de Sistemas – Games |
-| 📚 Disciplina | Linguagem de Programação |
-| 👨‍🏫 Professor | José Andery |
-| 👩‍💻 Aluna | Caroline Maciel de Ávila Rosa |
-| 📅 Ano letivo | 2026 |
+| 🏫 **Instituição** | Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC) |
+| 🎓 **Curso** | Técnico em Desenvolvimento de Sistemas – Games |
+| 📚 **Disciplina** | Linguagem de Programação |
+| 👨‍🏫 **Professor** | José Andery |
+| 👩‍💻 **Aluna** | Caroline Maciel de Ávila Rosa |
+| 📅 **Ano letivo** | 2026 |
 
 ---
 
@@ -42,43 +55,28 @@ Além de armazenar as entregas da disciplina, este repositório funciona como um
 
 Durante a disciplina são desenvolvidas competências relacionadas a:
 
-- 🧠 Raciocínio lógico e resolução de problemas;
+- 🧠 Desenvolvimento do raciocínio lógico;
 - 📐 Construção e análise de algoritmos;
 - 💻 Programação estruturada utilizando **C++** e **C#**;
-- 🏛️ Programação Orientada a Objetos (POO);
 - 📦 Estruturas de dados fundamentais;
 - 🌿 Controle de versão com Git e GitHub;
-- 📄 Documentação utilizando Markdown;
 - 🤝 Desenvolvimento colaborativo e boas práticas de programação.
 
 ---
 
 # 📚 Conteúdo estudado
 
-## 1º Trimestre
-
-- Revisão de conceitos da computação;
-- Algoritmos e lógica de programação;
-- Git, GitHub e Markdown;
-- Tipos de dados;
-- Variáveis e constantes;
-- Entrada e saída de dados;
-- Expressões aritméticas e lógicas;
-- Estruturas condicionais (`if`, `else`, `switch`);
-- Estruturas de repetição (`while`, `for`);
-- Modularização;
-- Introdução ao Scrum e UML (PROJETE).
-
----
-
-## 2º Trimestre
-
-- Vetores;
-- Matrizes;
-- Registros (Structs);
-- Listas lineares;
-- Dicionários;
-- Preparação para a Olimpíada Brasileira de Informática (OBI).
+| Aula | Conteúdo |
+|:---:|----------|
+| **01** | Conceitos básicos da computação e primeiro programa **Hello, World!** |
+| **02** | Lógica de programação, variáveis, operadores e comandos básicos |
+| **03** | Git, GitHub e controle de versão |
+| **04** | Estruturas condicionais (`if`, `else`, `else if` e `switch`) |
+| **05** | Estruturas de repetição (`for`, `while` e `do while`) |
+| **06** | Funções, métodos e modularização |
+| **07** | Estruturas homogêneas: vetores e matrizes |
+| **08** | Estruturas heterogêneas: registros (`struct`) |
+| **09** | Estruturas de dados avançadas: listas e dicionários |
 
 ---
 
@@ -89,7 +87,6 @@ Durante a disciplina são desenvolvidas competências relacionadas a:
 - .NET
 - Git
 - GitHub
-- Markdown
 - Visual Studio Code
 - Visual Studio Community
 
@@ -97,55 +94,37 @@ Durante a disciplina são desenvolvidas competências relacionadas a:
 
 # 📂 Organização do repositório
 
-Os arquivos são organizados conforme o andamento da disciplina.
+Os exercícios são organizados por aula, mantendo uma implementação em **C++** e outra em **C#**, facilitando a comparação entre as linguagens.
 
-Cada pasta corresponde às aulas, exercícios, desafios técnicos ou projetos desenvolvidos durante o ano letivo.
-
-```
+```text
 LPR_2026/
 │
-├── Aula01/
-├── Aula02/
-├── Aula03/
-├── Aula04/
-├── Aula05/
-│
-├── Desafios/
-├── Projetos/
+├── AulaXX/
+│   ├── C++/
+│   │   └── ExercicioYY.cpp
+│   │
+│   └── C#/
+│       └── ExercicioYY/
+│           ├── Program.cs
+│           └── ExercicioYY.csproj
 │
 └── README.md
 ```
 
 ---
 
-# 🧩 Competências desenvolvidas
-
-Ao longo da disciplina são trabalhadas habilidades como:
-
-- Desenvolvimento do raciocínio lógico;
-- Resolução de problemas computacionais;
-- Escrita de algoritmos eficientes;
-- Programação estruturada;
-- Programação Orientada a Objetos;
-- Organização de projetos;
-- Controle de versão;
-- Documentação de software;
-- Trabalho em equipe.
-
----
-
 # ▶️ Como executar
 
-### C++
+## C++
 
-Compile o arquivo utilizando um compilador C++.
+Compile o arquivo desejado utilizando um compilador C++.
 
 ```bash
 g++ arquivo.cpp -o programa
 ./programa
 ```
 
-### C#
+## C#
 
 Entre na pasta do projeto e execute:
 
@@ -159,7 +138,7 @@ dotnet run
 
 🟡 **Em desenvolvimento**
 
-Este repositório recebe novos conteúdos conforme o avanço da disciplina, reunindo exercícios, desafios técnicos e projetos desenvolvidos ao longo do ano.
+Este repositório é atualizado continuamente conforme novos conteúdos e exercícios são desenvolvidos durante a disciplina.
 
 ---
 
