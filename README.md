@@ -1,47 +1,50 @@
 <div align="center">
 
-# 💻 Linguagem de Programação (LPR) • 2026
+# 💻 Linguagem de Programação (LPR)
 
-### Repositório de exercícios da disciplina de Linguagem de Programação
+### Exercícios da disciplina • **2026**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00599C,100:68217A&height=120&section=header&text=LPR%202026&fontSize=38&fontColor=ffffff"/>
 
 <br>
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-68217A?style=for-the-badge&logo=csharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow?style=for-the-badge)
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=flat-square)
 
 </div>
 
 ---
 
-# 📑 Sumário
+# 📑 Índice
 
-- [📖 Sobre este repositório](#-sobre-este-repositório)
-- [🎓 Informações da disciplina](#-informações-da-disciplina)
-- [🎯 Objetivos da disciplina](#-objetivos-da-disciplina)
-- [📚 Conteúdo estudado](#-conteúdo-estudado)
-- [🚀 Tecnologias utilizadas](#-tecnologias-utilizadas)
-- [📂 Organização do repositório](#-organização-do-repositório)
-- [▶️ Como executar](#️-como-executar)
-- [📈 Status](#-status)
+- 📖 Sobre
+- 🎓 Informações da disciplina
+- 🎯 Objetivos
+- 📚 Conteúdo estudado
+- 🚀 Tecnologias
+- 📂 Organização
+- ▶️ Como executar
+- 📈 Status
 
 ---
 
 # 📖 Sobre este repositório
 
-Este repositório reúne todas as atividades e exercícios desenvolvidos durante a disciplina de **Linguagem de Programação (LPR)**, ministrada pelo professor **José Andery**, no **Curso Técnico em Desenvolvimento de Sistemas – Games** da **Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC)**.
+> Este repositório reúne todas as atividades e exercícios desenvolvidos durante a disciplina de **Linguagem de Programação (LPR)**, ministrada pelo professor **José Andery**, no **Curso Técnico em Desenvolvimento de Sistemas – Games** da **Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC)**.
 
-Além de armazenar as entregas da disciplina, este repositório funciona como um **portfólio acadêmico**, registrando minha evolução no aprendizado de lógica de programação, desenvolvimento de algoritmos e programação estruturada utilizando C++ e C#.
+Além de armazenar as entregas da disciplina, este repositório funciona como um **portfólio acadêmico**, registrando minha evolução no aprendizado de lógica de programação, desenvolvimento de algoritmos e programação estruturada utilizando **C++** e **C#**.
 
 ---
 
 # 🎓 Informações da disciplina
 
-| Item | Descrição |
-|------|-----------|
+| 📌 Item | Informação |
+|:--|:--|
 | 🏫 **Instituição** | Escola Técnica de Eletrônica Francisco Moreira da Costa (ETE FMC) |
 | 🎓 **Curso** | Técnico em Desenvolvimento de Sistemas – Games |
 | 📚 **Disciplina** | Linguagem de Programação |
@@ -53,21 +56,21 @@ Além de armazenar as entregas da disciplina, este repositório funciona como um
 
 # 🎯 Objetivos da disciplina
 
-Durante a disciplina são desenvolvidas competências relacionadas a:
+Ao longo da disciplina são desenvolvidas competências relacionadas a:
 
-- 🧠 Desenvolvimento do raciocínio lógico;
-- 📐 Construção e análise de algoritmos;
-- 💻 Programação estruturada utilizando **C++** e **C#**;
-- 📦 Estruturas de dados fundamentais;
-- 🌿 Controle de versão com Git e GitHub;
-- 🤝 Desenvolvimento colaborativo e boas práticas de programação.
+- 🧠 Desenvolvimento do raciocínio lógico
+- 📐 Construção e análise de algoritmos
+- 💻 Programação estruturada utilizando **C++** e **C#**
+- 📦 Estruturas de dados fundamentais
+- 🌱 Controle de versão com **Git** e **GitHub**
+- 🤝 Desenvolvimento colaborativo e boas práticas de programação
 
 ---
 
 # 📚 Conteúdo estudado
 
 | Aula | Conteúdo |
-|:---:|----------|
+|:---:|:---------|
 | **01** | Conceitos básicos da computação e primeiro programa **Hello, World!** |
 | **02** | Lógica de programação, variáveis, operadores e comandos básicos |
 | **03** | Git, GitHub e controle de versão |
@@ -82,19 +85,25 @@ Durante a disciplina são desenvolvidas competências relacionadas a:
 
 # 🚀 Tecnologias utilizadas
 
-- C++
-- C#
-- .NET
-- Git
-- GitHub
-- Visual Studio Code
-- Visual Studio Community
+<div align="center">
+
+| Linguagem/Ferramenta | Utilização |
+|:--|:--|
+| 💙 C++ | Programação estruturada |
+| 💜 C# | Programação orientada a objetos |
+| ⚪ .NET | Execução dos projetos C# |
+| 🟠 Git | Controle de versão |
+| ⚫ GitHub | Hospedagem do código |
+| 🔵 VS Code | Desenvolvimento |
+| 🟣 Visual Studio Community | Desenvolvimento C# |
+
+</div>
 
 ---
 
 # 📂 Organização do repositório
 
-Os exercícios são organizados por aula, mantendo implementações em **C++** e outras em **C#**, facilitando a comparação entre as linguagens.
+Os exercícios são organizados por aula, mantendo implementações em **C++** e em **C#**, facilitando a comparação entre as linguagens.
 
 ```text
 LPR_2026/
@@ -115,16 +124,18 @@ LPR_2026/
 
 # ▶️ Como executar
 
-## C++
+## 💙 C++
 
-Compile o arquivo desejado utilizando um compilador C++.
+Compile o arquivo desejado.
 
 ```bash
 g++ arquivo.cpp -o programa
 ./programa
 ```
 
-## C#
+---
+
+## 💜 C#
 
 Entre na pasta do projeto e execute:
 
@@ -136,7 +147,7 @@ dotnet run
 
 # 📈 Status
 
-🟡 **Em desenvolvimento**
+> 🟡 **Em desenvolvimento**
 
 Este repositório é atualizado continuamente conforme novos conteúdos e exercícios são desenvolvidos durante a disciplina.
 
@@ -144,12 +155,16 @@ Este repositório é atualizado continuamente conforme novos conteúdos e exerc�
 
 <div align="center">
 
-### ✨ Desenvolvido por
+## 👩‍💻 Desenvolvido por
 
-**Caroline Maciel de Ávila Rosa**
+### Caroline Maciel de Ávila Rosa
 
-Curso Técnico em Desenvolvimento de Sistemas – Games
+**Curso Técnico em Desenvolvimento de Sistemas – Games**
 
-ETE FMC • 2026
+🏫 ETE FMC • 2026
+
+---
+
+⭐ Se este repositório foi útil para você, considere deixar uma estrela.
 
 </div>
