@@ -163,8 +163,5 @@ Este repositório é atualizado continuamente conforme novos conteúdos e exerc�
 
 🏫 ETE FMC • 2026
 
----
-
-⭐ Se este repositório foi útil para você, considere deixar uma estrela.
 
 </div>
