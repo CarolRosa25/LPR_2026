@@ -11,6 +11,7 @@
 *.sln.docstates
 *.suo
 *.user
+*.slnx
 
 # === VS Code / IDEs ===
 # Ignora arquivos de histórico e diagnósticos locais do VS Code

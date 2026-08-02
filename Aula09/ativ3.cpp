@@ -3,10 +3,11 @@
 // A partir dessa lista ordenada, remova todos os números pares e imprima a lista novamente.
 // Por fim imprima quais números se repetem, se existe algum número repetido.
 
-// arrumar + fazer ativ 4
+// arrumar + 4 a 8
 
 #include <iostream>
 #include <list>
+#include <algorithm>
 using namespace std;
 
 int main() {
@@ -18,17 +19,16 @@ int main() {
     numeros.sort();
 
     cout << "Números ordenados:" << endl;
-    for (int i = 0; i < numeros.size(); i++)
+    for (const auto& n : numeros)
     {
-        cout << i << " ";
+        cout << n << " ";
     }
     cout << endl;
 
-    for (const auto& n : numeros)
-    {
-        numeros.remove_if([](int n) { return n % 2 == 0; });
-    }
-
+    numeros.remove_if([](int n) {
+        return n % 2 == 0;
+    });
+    
     cout << "Números após remover os pares:" << endl;
     for (const auto& n : numeros)
     {

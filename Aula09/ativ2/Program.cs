@@ -11,12 +11,12 @@ class Ativ
 	{
         List<string> nomes = new();
         Console.Write("Digite os nomes que deseja inserir: ");
-        int x = int.Parse(Console.ReadLine());
+        int x = int.Parse(Console.ReadLine()!);
+
         for (int i = 0; i < x; i++)
         {
-            string nomeAtual = nome[i];
             Console.Write($"Digite o {i + 1}º nome: ");
-            nomes.Add(Console.ReadLine());
+            nomes.Add(Console.ReadLine()!);
         }
 
         nomes.Sort((a, b) => a.Length.CompareTo(b.Length));
