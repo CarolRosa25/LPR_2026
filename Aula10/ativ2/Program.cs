@@ -42,9 +42,9 @@ public class Funcionario
     {
         Funcionario func = new Funcionario();
         Console.Write("Digite o nome do funcionário: ");
-        func.nome = Console.ReadLine();
+        func.nome = Console.ReadLine()!;
         Console.Write("Digite o salário bruto do funcionário: ");
-        func.salarioBruto = double.Parse(Console.ReadLine());
+        func.salarioBruto = double.Parse(Console.ReadLine()!);
 
         Console.WriteLine("Nome: " + func.nome);
         Console.WriteLine("Salário Líquido: " + func.calcularSalarioLiquido());

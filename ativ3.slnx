@@ -1,5 +1,7 @@
 <Solution>
   <Folder Name="/Aula10/">
+    <Project Path="Aula10/ativ1/ativ1.csproj" />
+    <Project Path="Aula10/ativ2/ativ2.csproj" />
     <Project Path="Aula10/ativ3/ativ3.csproj" />
   </Folder>
 </Solution>
