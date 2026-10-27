@@ -33,10 +33,7 @@ public class Funcionario
 
     public void aumentarSalario(double porcentagem)
     {
-        if (porcentagem > 0)
-        {
-            salarioBruto += salarioBruto * (porcentagem / 100);
-        }
+        salarioBruto += salarioBruto * (porcentagem / 100);
     }
     public static void Main(string[] args)
     {
@@ -46,7 +43,20 @@ public class Funcionario
         Console.Write("Digite o salário bruto do funcionário: ");
         func.salarioBruto = double.Parse(Console.ReadLine()!);
 
-        Console.WriteLine("Nome: " + func.nome);
-        Console.WriteLine("Salário Líquido: " + func.calcularSalarioLiquido());
+        Console.WriteLine();
+        Console.Write("Você deseja aumentar o salário do funcionário? (s/n): ");
+        string resposta = Console.ReadLine()!;
+        if (resposta.ToLower() == "s")
+        {
+            Console.Write("Digite a porcentagem de aumento: ");
+            double porcentagem = double.Parse(Console.ReadLine()!);
+            func.aumentarSalario(porcentagem);
+
+            Console.WriteLine();
+            Console.WriteLine("Salário bruto atualizado: " + func.salarioBruto);
+        }
+    
+    Console.WriteLine("Nome: " + func.nome);
+    Console.WriteLine("Salário líquido: " + func.calcularSalarioLiquido());
     }
 }

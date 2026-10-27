@@ -27,9 +27,9 @@ public class Retangulo
     {
         Retangulo retan = new Retangulo();
         Console.Write("Digite a altura do retângulo: ");
-        retan.altura = double.Parse(Console.ReadLine());
+        retan.altura = double.Parse(Console.ReadLine()!);
         Console.Write("Digite a largura do retângulo: ");
-        retan.largura = double.Parse(Console.ReadLine());
+        retan.largura = double.Parse(Console.ReadLine()!);
 
         Console.WriteLine("Área: " + retan.calcularArea());
         Console.WriteLine("Perímetro: " + retan.calcularPerimetro());
