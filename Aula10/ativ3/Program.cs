@@ -17,16 +17,16 @@ public class Alunos
 
     public double mediaFinal()
     {
-        double mediaFinal = (notasProva[0] * 2.5 + notasProva[1] * 2.5 + notasTrabalho[0] * 2) / 7;
-        return mediaFinal;
+        return (notasProva[0] * 2.5 + notasProva[1] * 2.5 + notasTrabalho[0] * 2) / 7;
     }
 
     public double notaFinal()
     {
         double media = mediaFinal();
+
         if (media < 60)
         {
-            return 60 - media;
+            return 120 - media;
         }
         else
         {
@@ -39,17 +39,23 @@ public class Alunos
         Alunos aluno = new Alunos();
         Console.Write("Digite o nome do aluno: ");
         aluno.nome = Console.ReadLine()!;
+
         Console.Write("Digite a matrícula do aluno: ");
         aluno.matricula = Console.ReadLine()!;
+        
+        Console.WriteLine();
         Console.Write("Digite a nota da primeira prova: ");
         aluno.notasProva[0] = double.Parse(Console.ReadLine()!);
+
         Console.Write("Digite a nota da segunda prova: ");
         aluno.notasProva[1] = double.Parse(Console.ReadLine()!);
+
         Console.Write("Digite a nota do trabalho: ");
         aluno.notasTrabalho[0] = double.Parse(Console.ReadLine()!);
 
         Console.WriteLine();
-        Console.Write("Média final do aluno: " + aluno.mediaFinal());
-        Console.Write("Nota necessária para a prova final: " + aluno.notaFinal());
+        Console.WriteLine($"Média final do aluno: {aluno.mediaFinal():F2}");
+
+        Console.WriteLine($"Nota necessária para a prova final: {aluno.notaFinal():F2}");
     }
 }
