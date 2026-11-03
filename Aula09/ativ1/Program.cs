@@ -14,17 +14,15 @@ class Ativ
 	static void Main() 
 	{
         List<int> numeros = new(5);
-        for (int i = 0; i < 5; i++)
-        {
+        for (int i = 0; i < 5; i++) {
             Console.Write("Digite a nota do aluno: ");
             int nota = Convert.ToInt32(Console.ReadLine());
             numeros.Add(nota);
-
         }
         Console.WriteLine();
+
         Console.WriteLine("Notas cadastradas: ");
-        foreach (int nota in numeros)
-        {
+        foreach (int nota in numeros) {
             Console.WriteLine(nota);
         }
         Console.WriteLine();
