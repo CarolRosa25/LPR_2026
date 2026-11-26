@@ -1,4 +1,5 @@
-// Crie uma struct chamada Piloto contendo: Nome, Equipe, Pontuação
+// Crie uma struct chamada Piloto contendo: 
+// Nome, Equipe, Pontuação
 // O programa deverá utilizar uma lista para armazenar os competidores.
 // Implemente as seguintes funções:
 // ● CadastrarPiloto()
@@ -13,77 +14,80 @@
 // ● Determinar qual equipe possui a maior soma de pontos.
 
 #include <iostream>
-#include <list>
+#include <vector>
+#include <string>
+#include <algorithm>
 using namespace std;
 
 struct Piloto {
     string nome;
     string equipe;
-    int pontuacao;
+    double pontuacao;
 };
 
-list<Piloto> pilotos;
-
-void CadastrarPiloto() {
-    Piloto piloto;
-    cout << "Digite o nome do piloto: ";
-    cin >> piloto.nome;
-    cout << "Digite a equipe do piloto: ";
-    cin >> piloto.equipe;
-    cout << "Digite a pontuação do piloto: ";
-    cin >> piloto.pontuacao;
-    pilotos.push_back(piloto);
-}
-
-void ExibirRanking() {
-    pilotos.sort([](const Piloto& a, const Piloto& b) {
-        return a.pontuacao > b.pontuacao;
-    });
-    cout << "Ranking dos pilotos:\n";
-    for (const auto& piloto : pilotos) {
-        cout << piloto.nome << " - " << piloto.equipe << " - " << piloto.pontuacao << " pontos\n";
+void CadastrarPiloto(vector<Piloto>& pilotos) {
+    for (int i = 0; i < 10; i++) {
+        Piloto p;
+        cout << "\nPiloto " << i + 1 << "\nNome: ";
+        getline(cin >> ws, p.nome);
+        cout << "Equipe: ";
+        getline(cin, p.equipe);
+        cout << "Pontuacao: ";
+        cin >> p.pontuacao;
+        pilotos.push_back(p);
     }
 }
 
-void CalcularPontuacaoMedia() {
-    int soma = 0;
-    for (const auto& piloto : pilotos) {
-        soma += piloto.pontuacao;
-    }
-    double media = static_cast<double>(soma) / pilotos.size();
-    cout << "Pontuação média do campeonato: " << media << endl;
-
-    int acimaDaMedia = 0;
-    for (const auto& piloto : pilotos) {
-        if (piloto.pontuacao > media) {
-            acimaDaMedia++;
-        }
-    }
-    cout << "Número de pilotos acima da média: " << acimaDaMedia << endl;
+void ExibirRanking(vector<Piloto> pilotos) {
+    sort(pilotos.begin(), pilotos.end(),
+        [](const Piloto& a, const Piloto& b) {
+            return a.pontuacao > b.pontuacao;
+        });
+    cout << "\nRANKING\n";
+    for (int i = 0; i < (int)pilotos.size(); i++)
+        cout << i + 1 << " - " << pilotos[i].nome << " | "
+             << pilotos[i].equipe << " | " << pilotos[i].pontuacao << " pontos\n";
 }
 
-void ExibirMelhorEquipe() {
-    list<string> equipes;
-    list<int> pontuacoes;
+double CalcularPontuacaoMedia(const vector<Piloto>& pilotos) {
+    double soma = 0;
+    for (const Piloto& p : pilotos) soma += p.pontuacao;
+    return soma / pilotos.size();
+}
 
-    for (const auto& piloto : pilotos) {
-        auto it = find(equipes.begin(), equipes.end(), piloto.equipe);
+void ExibirMelhorEquipe(const vector<Piloto>& pilotos) {
+    vector<string> equipes;
+    vector<double> totais;
+    for (const Piloto& p : pilotos) {
+        auto it = find(equipes.begin(), equipes.end(), p.equipe);
         if (it == equipes.end()) {
-            equipes.push_back(piloto.equipe);
-            pontuacoes.push_back(piloto.pontuacao);
+            equipes.push_back(p.equipe);
+            totais.push_back(p.pontuacao);
         } else {
-            int index = distance(equipes.begin(), it);
-            pontuacoes[index] += piloto.pontuacao;
+            totais[it - equipes.begin()] += p.pontuacao;
         }
     }
 
-    int maxPontuacao = 0;
-    string melhorEquipe;
-    for (size_t i = 0; i < equipes.size(); ++i) {
-        if (pontuacoes[i] > maxPontuacao) {
-            maxPontuacao = pontuacoes[i];
-            melhorEquipe = equipes[i];
-        }
-    }
-    cout << "Melhor equipe: " << melhorEquipe << " com " << maxPontuacao << " pontos\n";
+    int melhor = 0;
+    for (int i = 1; i < (int)totais.size(); i++)
+        if (totais[i] > totais[melhor]) melhor = i;
+
+    cout << "Melhor equipe: " << equipes[melhor]
+         << " (" << totais[melhor] << " pontos)\n";
+}
+
+int main() {
+    vector<Piloto> pilotos;
+    CadastrarPiloto(pilotos);
+    ExibirRanking(pilotos);
+
+    double media = CalcularPontuacaoMedia(pilotos);
+    int acima = 0;
+    for (const Piloto& p : pilotos)
+        if (p.pontuacao > media) acima++;
+
+    cout << "\nMedia do campeonato: " << media;
+    cout << "\nPilotos acima da media: " << acima << endl;
+    ExibirMelhorEquipe(pilotos);
+    return 0;
 }
